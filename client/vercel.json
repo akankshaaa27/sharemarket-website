@@ -1,8 +1,7 @@
 {
-  "outputDirectory": "dist/spa",
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist/spa" } }
-  ],
+  "version": 2,
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
