@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/logo.png";
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,16 +25,17 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 flex-shrink-0">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fefd4ffd1079d4c2098f59b6b5c24c07c%2F0b3caffae6de46a5bae133bec02b9b1b?format=webp&width=800"
-              alt="Kalvati Enterprises Logo"
+              src={logo}
+              alt="Kalabai Enterprises Logo"
               className="h-12 w-auto hidden sm:block"
             />
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fefd4ffd1079d4c2098f59b6b5c24c07c%2F0b3caffae6de46a5bae133bec02b9b1b?format=webp&width=800"
-              alt="Kalvati Enterprises Logo"
+              src={logo}
+              alt="Kalabai Enterprises Logo"
               className="h-10 w-auto sm:hidden"
             />
           </Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">

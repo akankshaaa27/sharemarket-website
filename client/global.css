@@ -7,8 +7,9 @@
 @tailwind utilities;
 
 @layer base {
+
   /**
-   * Tailwind CSS theme - Kalvati Enterprises
+   * Tailwind CSS theme - Kalabai Enterprises
    * Color palette: Trust/Finance Blues
    * Primary: #0b4f72 (deep blue)
    * Secondary: #2a9adf (mid blue)
@@ -108,7 +109,12 @@
     @apply bg-background text-foreground font-sans;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-serif font-bold;
   }
 

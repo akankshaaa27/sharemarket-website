@@ -161,8 +161,8 @@ export default function Contact() {
                 <Mail className="text-secondary" size={24} />
               </div>
               <h3 className="text-xl font-bold text-primary mb-2">Email</h3>
-              <a href="mailto:contact@kalvati.com" className="text-muted-foreground hover:text-primary transition-colors">
-                contact@kalvati.com
+              <a href="mailto:contact@Kalabai.com" className="text-muted-foreground hover:text-primary transition-colors">
+                contact@Kalabai.com
               </a>
             </div>
 

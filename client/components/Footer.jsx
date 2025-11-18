@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fefd4ffd1079d4c2098f59b6b5c24c07c%2F0b3caffae6de46a5bae133bec02b9b1b?format=webp&width=800"
-                alt="Kalvati Enterprises Logo"
+                alt="Kalabai Enterprises Logo"
                 className="h-12 w-auto"
               />
             </div>
@@ -93,8 +93,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <Mail size={18} className="flex-shrink-0 mt-0.5" />
-                <a href="mailto:contact@kalvati.com" className="hover:text-accent transition-colors">
-                  contact@kalvati.com
+                <a href="mailto:contact@Kalabai.com" className="hover:text-accent transition-colors">
+                  contact@Kalabai.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -113,7 +113,7 @@ export default function Footer() {
 
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-center md:text-left">
-            <p>&copy; {currentYear} Kalvati Enterprises. All rights reserved.</p>
+            <p>&copy; {currentYear} Kalabai Enterprises. All rights reserved.</p>
             <div className="flex gap-4 justify-center md:justify-center">
               <a href="#" className="hover:text-accent transition-colors">
                 Privacy Policy
