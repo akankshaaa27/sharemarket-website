@@ -1,0 +1,141 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme - Kalvati Enterprises
+   * Color palette: Trust/Finance Blues
+   * Primary: #0b4f72 (deep blue)
+   * Secondary: #2a9adf (mid blue)
+   * Accent: #ffc857 (warm gold)
+   * Background: #faf7f0 (off-white)
+  */
+  :root {
+    --background: 40 14% 97%;
+    --foreground: 202 44% 22%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 202 44% 22%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 202 44% 22%;
+
+    --primary: 202 85% 22%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 202 81% 44%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 16% 82%;
+    --muted-foreground: 202 20% 45%;
+
+    --accent: 45 100% 59%;
+    --accent-foreground: 202 85% 22%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 16% 90%;
+    --input: 210 14% 95%;
+    --ring: 202 85% 22%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 40 14% 97%;
+    --sidebar-foreground: 202 44% 22%;
+    --sidebar-primary: 202 85% 22%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 45 100% 59%;
+    --sidebar-accent-foreground: 202 85% 22%;
+    --sidebar-border: 210 16% 90%;
+    --sidebar-ring: 202 85% 22%;
+  }
+
+  .dark {
+    --background: 202 40% 10%;
+    --foreground: 40 10% 95%;
+
+    --card: 202 30% 15%;
+    --card-foreground: 40 10% 95%;
+
+    --popover: 202 30% 15%;
+    --popover-foreground: 40 10% 95%;
+
+    --primary: 202 81% 54%;
+    --primary-foreground: 202 85% 22%;
+
+    --secondary: 202 81% 44%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 202 20% 35%;
+    --muted-foreground: 202 10% 70%;
+
+    --accent: 45 100% 59%;
+    --accent-foreground: 202 85% 22%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 202 30% 20%;
+    --input: 202 30% 20%;
+    --ring: 202 81% 54%;
+    --sidebar-background: 202 85% 22%;
+    --sidebar-foreground: 40 10% 95%;
+    --sidebar-primary: 202 81% 54%;
+    --sidebar-primary-foreground: 202 85% 22%;
+    --sidebar-accent: 45 100% 59%;
+    --sidebar-accent-foreground: 202 85% 22%;
+    --sidebar-border: 202 30% 20%;
+    --sidebar-ring: 202 81% 54%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  :where(p, span, li, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+}
