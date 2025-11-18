@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "pnpm install && pnpm run build:client",
+  "#": "This config runs the repo-root build, then copies the generated dist/spa into client/dist so Vercel (when Root Directory is 'client') can serve it.",
+  "buildCommand": "pnpm --prefix .. run build && cp -r ../dist/spa ./dist",
   "outputDirectory": "dist",
 
   "routes": [
