@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pnpm run build:client",
+  "buildCommand": "pnpm run build",
   "outputDirectory": "dist/spa",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
