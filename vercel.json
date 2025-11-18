@@ -3,6 +3,7 @@
   "buildCommand": "corepack enable && corepack prepare pnpm@10.14.0 --activate && pnpm install && pnpm run build:client",
   "outputDirectory": "dist/spa",
   "routes": [
+    { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
