@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Founder from "../assets/pradip-samgir.jpg";
 import {
   TrendingUp,
   BarChart3,
@@ -140,8 +141,8 @@ export default function Home() {
             </div>
             {/* Brand image
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fefd4ffd1079d4c2098f59b6b5c24c07c%2F0b3caffae6de46a5bae133bec02b9b1b?format=webp&width=800"
-              alt="Kalabai Enterprises Logo"
+
+                   src={Founder}              alt="Kalabai Enterprises Logo"
               className="mx-auto h-40 w-auto mt-6 hidden md:block"
             /> */}
           </div>
@@ -203,6 +204,13 @@ export default function Home() {
             </div>
 
             <div className="bg-secondary/5 border border-border rounded-lg p-6">
+              <div className="flex justify-center mb-4">
+                <img
+                  src={Founder}
+                  alt="Pradeep Samgir"
+                  className="h-20 w-20 rounded-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-2">Pradeep Samgir</h3>
               <p className="text-sm text-muted-foreground mb-3">
                 Founder & Senior Advisor — 30+ years in Indian equity markets, specialising in IEPF recoveries, demat

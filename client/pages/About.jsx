@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Calendar, Award, MapPin, ArrowRight } from "lucide-react";
+import Founder from "../assets/pradip-samgir.jpg";
+
 
 export default function About() {
   return (
@@ -7,6 +9,13 @@ export default function About() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary to-secondary text-primary-foreground py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* <div className="flex justify-center mb-4">
+            <img
+              src={Founder}
+              alt="Pradeep Samgir"
+              className="h-20 w-20 rounded-full object-cover mx-auto"
+            />
+          </div> */}
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Pradeep Samgir</h1>
           <p className="text-xl text-primary-foreground/90">
             Share Market Consultant & IEPF Recovery Specialist
@@ -119,8 +128,8 @@ export default function About() {
               <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-lg p-8 border border-border mb-8">
                 <div className="flex justify-center mb-6">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2Fefd4ffd1079d4c2098f59b6b5c24c07c%2F0b3caffae6de46a5bae133bec02b9b1b?format=webp&width=800"
-                    alt="Pradeep Samgir - Kalabai Enterprises"
+
+                   src={Founder} alt="Pradeep Samgir - Kalabai Enterprises"
                     className="h-28 w-28 rounded-full object-cover"
                   />
                 </div>
