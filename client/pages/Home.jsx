@@ -138,6 +138,12 @@ export default function Home() {
                 <ArrowRight size={20} />
               </Link>
             </div>
+            {/* Brand image
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fefd4ffd1079d4c2098f59b6b5c24c07c%2F0b3caffae6de46a5bae133bec02b9b1b?format=webp&width=800"
+              alt="Kalabai Enterprises Logo"
+              className="mx-auto h-40 w-auto mt-6 hidden md:block"
+            /> */}
           </div>
         </div>
 
@@ -164,6 +170,58 @@ export default function Home() {
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-secondary mb-2">12</div>
               <p className="text-muted-foreground">Expert Services</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-16 md:py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            <div className="md:col-span-2">
+              <h2 className="text-3xl font-bold text-primary mb-4">About Kalabai Enterprises</h2>
+              <p className="text-muted-foreground mb-4">
+                Kalabai Enterprises is a Pune-based financial advisory and recovery firm with a track record of helping
+                investors recover assets, resolve demat issues and navigate corporate actions. We combine deep market
+                knowledge with practical experience across corporate registrars, depositories and regulatory processes.
+              </p>
+
+              <ul className="list-disc list-inside space-y-2 text-sm mb-4">
+                <li>End-to-end IEPF claim processing and share recovery</li>
+                <li>Demat account assistance, dematerialisation and transfers</li>
+                <li>Portfolio advisory, reconciliation and dispute resolution</li>
+              </ul>
+
+              <Link
+                to="/about"
+                className="inline-flex items-center gap-2 px-6 py-2 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                Learn More About Us
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+
+            <div className="bg-secondary/5 border border-border rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-2">Pradeep Samgir</h3>
+              <p className="text-sm text-muted-foreground mb-3">
+                Founder & Senior Advisor — 30+ years in Indian equity markets, specialising in IEPF recoveries, demat
+                reconciliation and investor protection. Pradeep has successfully led complex recoveries and provides
+                hands-on guidance to clients throughout the claim and transfer process.
+              </p>
+              <p className="text-sm mb-4">Areas of expertise:</p>
+              <ul className="list-disc list-inside text-sm mb-4">
+                <li>IEPF claims & registrar liaison</li>
+                <li>Demat operations & transfer dispute resolution</li>
+                <li>Portfolio recovery & reconciliation</li>
+              </ul>
+
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-colors"
+              >
+                Contact Pradeep
+              </Link>
             </div>
           </div>
         </div>
@@ -347,7 +405,7 @@ export default function Home() {
               <ArrowRight size={20} />
             </Link>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/91982662901"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-primary-foreground text-primary font-semibold rounded-lg hover:bg-primary-foreground/90 transition-colors inline-flex items-center justify-center gap-2"

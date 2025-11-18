@@ -117,6 +117,13 @@ export default function About() {
             <div>
               {/* Profile Card */}
               <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-lg p-8 border border-border mb-8">
+                <div className="flex justify-center mb-6">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2Fefd4ffd1079d4c2098f59b6b5c24c07c%2F0b3caffae6de46a5bae133bec02b9b1b?format=webp&width=800"
+                    alt="Pradeep Samgir - Kalabai Enterprises"
+                    className="h-28 w-28 rounded-full object-cover"
+                  />
+                </div>
                 <h3 className="text-2xl font-bold text-primary mb-6">Quick Facts</h3>
 
                 <div className="space-y-6">

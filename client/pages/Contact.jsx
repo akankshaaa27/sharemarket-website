@@ -151,8 +151,8 @@ export default function Contact() {
                 <Phone className="text-primary" size={24} />
               </div>
               <h3 className="text-xl font-bold text-primary mb-2">Phone</h3>
-              <a href="tel:+919876543210" className="text-muted-foreground hover:text-primary transition-colors">
-                +91 98765 43210
+                 <a href="tel:+91982662901" className="text-muted-foreground hover:text-primary transition-colors">
+                   +91 982662901
               </a>
             </div>
 
@@ -161,8 +161,8 @@ export default function Contact() {
                 <Mail className="text-secondary" size={24} />
               </div>
               <h3 className="text-xl font-bold text-primary mb-2">Email</h3>
-              <a href="mailto:contact@Kalabai.com" className="text-muted-foreground hover:text-primary transition-colors">
-                contact@Kalabai.com
+                 <a href="mailto:sampradip@hotmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                   sampradip@hotmail.com
               </a>
             </div>
 
@@ -219,7 +219,7 @@ export default function Contact() {
                       value={formData.mobile}
                       onChange={handleChange}
                       className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary bg-white"
-                      placeholder="+91 98765 43210"
+                       placeholder="+91 982662901"
                       required
                     />
                   </div>
